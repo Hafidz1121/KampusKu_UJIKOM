@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">KampusKU</string>
+    <string name="deskripsi_aplikasi">Aplikasi KampusKu adalah sebuah aplikasi berbasis android, yang digunakan untuk pendataan data mahasiswa. User yang telah login dapat melakukan lihat data, tambah data, ubah data dan hapus data mahasiwa.</string>
+</resources>

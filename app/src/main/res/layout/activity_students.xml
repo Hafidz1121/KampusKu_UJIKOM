@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".menu.StudentsActivity">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/add_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="@color/blue"
+        android:clickable="true"
+        android:contentDescription="Add Button"
+        android:focusable="true"
+        android:src="@drawable/icon_add" />
+
+    <ImageView
+        android:id="@+id/icon_empty"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="155dp"
+        android:layout_marginTop="216dp"
+        android:layout_marginEnd="155dp"
+        android:layout_marginBottom="415dp"
+        android:src="@drawable/icon_empty"
+        android:alpha="0.1"
+        android:visibility="gone"
+        android:contentDescription="Icon Empty" />
+
+    <TextView
+        android:id="@+id/text_noData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="2dp"
+        android:layout_marginEnd="-2dp"
+        android:layout_marginBottom="385dp"
+        android:gravity="center"
+        android:text="No Data"
+        android:textSize="20sp"
+        android:alpha="0.4"
+        android:visibility="gone"/>
+
+</RelativeLayout>

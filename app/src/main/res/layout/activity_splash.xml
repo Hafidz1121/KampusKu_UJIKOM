@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SplashActivity"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <ImageView
+        android:id="@+id/logo_polije"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:src="@mipmap/icon_polije"
+        android:contentDescription="Logo Polije" />
+
+    <TextView
+        android:id="@+id/text_splashScreen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="KampusKU"
+        android:textSize="27sp"
+        android:gravity="center"
+        android:layout_marginTop="5dp"/>
+
+</LinearLayout>
